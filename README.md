@@ -14,7 +14,7 @@
 
 *I am documenting my weekly learning progress below:*
 
-### 🔹 Week 1
+### 🔹 Week 1 (Basics & Core Data Structures)
 * **Introduction to Data & Structures:** Learned the fundamental difference between raw data and structured data, understanding how organized data allows us to design highly efficient algorithms (e.g., how a sorted array enables Binary Search).
 * **Algorithm Analysis:** * Explored how to calculate the resource consumption (time and space complexities) of an algorithm in a machine-independent way.
   * Mastered evaluating algorithms based on **Best case**, **Worst case**, and **Average case** performance.
@@ -25,7 +25,7 @@
   * **Stack:** Deeper dive into Last-In-First-Out (LIFO) behavior, including core operations (`push`, `pop`, `top`, `empty`, `size`) and standard applications like string reversal, balancing parentheses, and identifying palindromes.
   * **Queue:** Understood First-In-First-Out (FIFO) mechanics, its standard operations (`enqueue`, `dequeue`, `front`), and how to implement a functional queue using two utility stacks.
 
-### 🔹 Week 2
+### 🔹 Week 2 (Greedy, Sorting & Number Theory)
 * **Greedy Algorithms & Optimization:**
   * Mastered making locally optimal choices at each step to reach a global optimum using materials from *Classic Algorithms: Greedy*.
   * Evaluated key properties: **Greedy Choice Property** and **Optimal Substructure**.
