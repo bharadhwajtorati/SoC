@@ -21,7 +21,7 @@
   * Mastered evaluating algorithms based on **Best case**, **Worst case**, and **Average case** performance.
 * **Asymptotic Notation:**
   * Gained a deep understanding of **Big-O Notation** $O(n)$ to define upper bounds and approximate the growth rate of algorithms.
-  * Covered **Theta-Notation** ($\Theta(n)$) for defining tight bounds.
+  * Covered **Theta-Notation** $\Theta(n)$ for defining tight bounds.
   * Familiarized myself with the core complexity classes: Constant $O(1)$, Logarithmic $O(\log n)$, Linear $O(n)$, Quadratic $O(n^2)$, Polynomial $O(n^k)$, and Exponential $O(2^n)$.
 * **Core Data Structures (Stacks & Queues):**
   * **Stack:** Deeper dive into Last-In-First-Out (LIFO) behavior, including core operations (`push`, `pop`, `top`, `empty`, `size`) and standard applications like string reversal, balancing parentheses, and identifying palindromes.
