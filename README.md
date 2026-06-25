@@ -14,12 +14,14 @@
 
 *I am documenting my weekly learning progress below:*
 
-### 🔹 Week 1 (Basics & Core Data Structures)
+### 🔹 Week 1 (Ad-hoc Basics & Core Data Structures)
 * **Introduction to Data & Structures:** Learned the fundamental difference between raw data and structured data, understanding how organized data allows us to design highly efficient algorithms (e.g., how a sorted array enables Binary Search).
-* **Algorithm Analysis:** * Explored how to calculate the resource consumption (time and space complexities) of an algorithm in a machine-independent way.
+* **Algorithm Analysis:**
+  * Explored how to calculate the resource consumption (time and space complexities) of an algorithm in a machine-independent way.
   * Mastered evaluating algorithms based on **Best case**, **Worst case**, and **Average case** performance.
-* **Asymptotic Notation:** * Gained a deep understanding of **Big-O Notation** ($O(n)$) to define upper bounds and approximate the growth rate of algorithms.
-  * Covered **$\Theta$-Notation** ($\Theta(n)$) for defining tight bounds.
+* **Asymptotic Notation:**
+  * Gained a deep understanding of **Big-O Notation** $O(n)$ to define upper bounds and approximate the growth rate of algorithms.
+  * Covered **Theta-Notation** ($\Theta(n)$) for defining tight bounds.
   * Familiarized myself with the core complexity classes: Constant $O(1)$, Logarithmic $O(\log n)$, Linear $O(n)$, Quadratic $O(n^2)$, Polynomial $O(n^k)$, and Exponential $O(2^n)$.
 * **Core Data Structures (Stacks & Queues):**
   * **Stack:** Deeper dive into Last-In-First-Out (LIFO) behavior, including core operations (`push`, `pop`, `top`, `empty`, `size`) and standard applications like string reversal, balancing parentheses, and identifying palindromes.
@@ -35,13 +37,13 @@
   * Explored Information Theory bounds proving why $\log N$ comparisons are strictly necessary for searching and sorting.
 * **Divide & Conquer Paradigms:**
   * Analyzed the recursive framework using the Master Theorem based on *Divide and Conquer Applications*.
-  * Implemented **Merge Sort**, counting *Significant Inversions* ($\mathcal{O}(n \log n)$), the *Skyline Problem*, and fast integer/matrix *Exponentiation* via repeated squaring.
+  * Implemented **Merge Sort**, counting *Significant Inversions* $O(n \log n)$, the *Skyline Problem*, and fast integer/matrix *Exponentiation* via repeated squaring.
 * **Fundamental Number Theory & Math:**
-  * **Euclidean Algorithm:** Studied the logarithmic time complexity ($\mathcal{O}(\log \min(a, b))$) optimization for finding the Greatest Common Divisor (GCD) and Least Common Multiple (LCM), including the high-performance *Binary GCD* variant detailed on [CP-Algorithms: Euclidean Algorithm](https://cp-algorithms.com/algebra/euclid-algorithm.html).
-  * **Sieve of Eratosthenes:** Learned how to efficiently compute all prime numbers in a segment $[1; n]$ in $\mathcal{O}(n \log \log n)$ operations using the implementation strategies from [CP-Algorithms: Sieve of Eratosthenes](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html). Explored optimizations like sieving till the square root, odd-only sieving, and *Segmented Sieve* architectures for massive ranges.
+  * **Euclidean Algorithm:** Studied the logarithmic time complexity $O(\log \min(a, b))$ optimization for finding the Greatest Common Divisor (GCD) and Least Common Multiple (LCM), including the high-performance *Binary GCD* variant detailed on [CP-Algorithms: Euclidean Algorithm](https://cp-algorithms.com/algebra/euclid-algorithm.html).
+  * **Sieve of Eratosthenes:** Learned how to efficiently compute all prime numbers in a segment $[1, n]$ in $O(n \log \log n)$ operations using the implementation strategies from [CP-Algorithms: Sieve of Eratosthenes](https://cp-algorithms.com/algebra/sieve-of-eratosthenes.html). Explored optimizations like sieving till the square root, odd-only sieving, and *Segmented Sieve* architectures for massive ranges.
   * **Binomial Coefficients:** Mastered analytical and recurrence relations (Pascal's Triangle) to calculate $\binom{n}{k}$ combinations. Covered advanced modular arithmetic variations—including large prime modulos, prime powers, and square-free composites using the Chinese Remainder Theorem—as outlined on [CP-Algorithms: Binomial Coefficients](https://cp-algorithms.com/combinatorics/binomial-coefficients.html).
 
-### 🔹 Weeks 3 & 4 (Dynamic Programming)
+### 🔹 Weeks 3 & 4 (Dynamic Programming Optimization)
 * **Core Paradigms & Foundations:**
   * Studied how to transition from exponential-time complete search algorithms into highly efficient polynomial-time variants.
   * Mastered identifying the two critical ingredients for DP viability: **Optimal Substructures** (where subproblem solutions form part of the original problem's solution) and **Overlapping Subproblems** (revisited computational states).
@@ -56,7 +58,7 @@
   * **Coin Change Variants:** Designed systems to calculate the absolute minimum coin configurations for amount $V$, alongside combinatorial coin variants that calculate unique composition counts.
   * **Traveling Salesman Problem (TSP):** Explored NP-hard path minimization over a graph matrix optimized using small-set booleans, breaking the factorial boundary down to $O(N^2 \cdot 2^N)$ using **DP + Bitmasking** techniques.
 * **Non-Classical Formulations:**
-  * Explored multi-stage array split optimizations like *Cutting Sticks* matrix chaining ($O(n^3)$) and mathematical combinatorics breakdowns matching Pascal's Binomial distribution patterns.
+  * Explored multi-stage array split optimizations like *Cutting Sticks* matrix chaining $O(n^3)$ and mathematical combinatorics breakdowns matching Pascal's Binomial distribution patterns.
   * Explored reconstructing precise optimal routes and asset combinations via reverse-tracking matrix predecessor pathways from optimal final states.
 
 ---
