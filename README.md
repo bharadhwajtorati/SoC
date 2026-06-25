@@ -1,4 +1,4 @@
-# 🚀 Summer of Code 2026
+# 🚀 Seasons of Code 2026
 
 ---
 
